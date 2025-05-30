@@ -28,3 +28,15 @@ print(area)
 5.Write a program that greets the user by printing the word "Hello", a comma, the name of the user and an exclamation mark after it
 name = input()
 print("Hello, " + name + "!")
+
+6.N students take K apples and distribute them among each other evenly. The remaining (the undivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
+The program reads the numbers N and K. It should print the two answers for the questions above.
+
+N = int(input())  # Num of students
+K = int(input())  # Num of apples
+
+apples_per_student = K // N
+remaining_apples = K % N
+
+print(apples_per_student)
+print(remaining_apples)
