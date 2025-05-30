@@ -8,11 +8,20 @@ c = int(input())
 print(a + b +c)
 
 2.Write a program that greets the person by printing the word "Hi" and the name of the person. 
+
 code:
 name = input("Please enter your name: ")
 print("Hi", name)
 
 3.Write a program that takes a number and print its square.
+
  n = float(input())
 print(n ** 2)
+
+4.Write a program that reads the length of the base and the height of a right-angled triangle and prints the area. Every number is given on a separate line.
+
+base = float(input())
+height = float(input())
+area = 0.5 * base * height
+print(area)
 
